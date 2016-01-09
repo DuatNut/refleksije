@@ -1,0 +1,7 @@
+
+Ko inicializiram Git bazo, se ustvari direktorij ".git", kjer so shranjeni vsi
+podatki o podatkih (metapodatki).
+
+"Staging area" je odlagališče za datoteke, ki bodo postorjene (commited) v bazo oz.
+repozitorij. Delovni direktorij je fizični kraj na disku, ki, poleg datotek, vsebuje
+tudi repozitorij.
