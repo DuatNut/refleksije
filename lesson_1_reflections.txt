@@ -1,0 +1,27 @@
+﻿FC - file compare
+
+Na linux-u in Mac-u uporabi "diff"
+
+Vrstice ne smejo biti predolge! Sicer ne bo izpisa razlik, ali pa bo ta nepregleden.
+Priporočena dolžina vrstive je 80, 120 znakov.
+
+
+Če imam nadzor nad zgodovino vsah različic neke datoteke,
+lahko hitreje najdem neželene napake, še posebaj, ko gre za
+dolge projekte.
+
+
+Prednost za manualno izbiranje storitev (commits) je njihovo zaobseganje po logičnih spremembah.
+Tako je lažje slediti tem spremembam; - je bolj pregledno.
+Slabost tega je, da lahko pozabiš shraniti storitev, ali pa jo napačno zaobjameš.
+
+
+Nekateri sistem shranjujejo posamezne datoteke, ker so te samostojne. Git shranjuje verzije vseh simultano,
+ker so vse del enega sistema.
+
+
+Ukaz "git log" prikaže vse verzije z njihovimi ID-ji, avtorji, datumi in opisom.
+Ukaz "git diff", ki mu sledita dva ID-ja, primerja ti dve verziji.
+
+
+Ukaz "scp" je za varno kopiranje direktorija in stoji za "secure copy".
