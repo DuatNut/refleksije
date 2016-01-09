@@ -5,3 +5,8 @@ podatki o podatkih (metapodatki).
 "Staging area" je odlagališče za datoteke, ki bodo postorjene (commited) v bazo oz.
 repozitorij. Delovni direktorij je fizični kraj na disku, ki, poleg datotek, vsebuje
 tudi repozitorij.
+
+Uprizoritveno območje (staging area) je uporabno za zagotavljanje, da je vsaka storitev
+vezana na zgolj eno logično spremembo. Temu je tako, ker Git nudi preprosto orodje za
+primerjanje sprememb med delovnim direktorijem in uprizoritvenim območjem ("git diff"),
+in uprizoritvenim območjem ter zadnjim vnosom v repozitoriju ("git diff --staged").
