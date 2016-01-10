@@ -10,3 +10,8 @@ Uprizoritveno območje (staging area) je uporabno za zagotavljanje, da je vsaka 
 vezana na zgolj eno logično spremembo. Temu je tako, ker Git nudi preprosto orodje za
 primerjanje sprememb med delovnim direktorijem in uprizoritvenim območjem ("git diff"),
 in uprizoritvenim območjem ter zadnjim vnosom v repozitoriju ("git diff --staged").
+
+Veje so koristne, kadar želim raziskati neko idejo, brez da bi spremenil generalno pot
+razvoja, ali pa na primer, če želim razljičico v drugem jeziku.
+Ukaz je "git branch" - za prikaz vseh vej - in "git branch <novo ime>" - za ustvarjenje
+nove veje. Z "git checkout" se nato premikam z ene veje na drugo.
