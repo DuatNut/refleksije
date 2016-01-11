@@ -15,3 +15,13 @@ Veje so koristne, kadar želim raziskati neko idejo, brez da bi spremenil genera
 razvoja, ali pa na primer, če želim razljičico v drugem jeziku.
 Ukaz je "git branch" - za prikaz vseh vej - in "git branch <novo ime>" - za ustvarjenje
 nove veje. Z "git checkout" se nato premikam z ene veje na drugo.
+
+Če uporabim "checkout" na storitvi, in ne na veji, potem lahko naredim spremembe, ki se
+ne bodo poznale na nobeni obstoječi veji. Če želim obdržati spremembe, potem nov/-e
+storitve imenujem z "git branch -b <ime nove veje>". Slednja zastavica deluje kot dva
+ukaza, in sicer najprej "git branch <ime nove veje>" nato "git checkout <ime nove veje>".
+
+Prednosti avtomatičnega spajanja ("git merge") je v hitrejšem postopku, slabost pa v tem,
+da ni zmeraj možno določiti končni spoj. A kjub temu je to prednostno, saj Git sporoči,
+kjer obstaja nesoglasje in le tega nazorno prikaže; nato se avtor odloči, kateri deli
+bodo vključeni v končno datoteko - spoj.
